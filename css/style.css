@@ -1,0 +1,27 @@
+body {
+    font-size: 1.2rem;
+    background-color:rgb(75, 8, 21);
+    color: wheat;
+    font-family: 'Qwitcher Grypen', cursive;
+    font-family: 'Salsa', cursive;
+}
+
+.container {
+    width: min(80ch, 100vw - 4rem);
+    margin-inline: auto;
+}
+
+.gallery {
+    display:list-item;
+    list-style: none;
+    padding: 0;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    gap: 1rem;
+}
+
+main {
+    margin-top: 4vh;
+    margin-bottom: 8vh;
+}
