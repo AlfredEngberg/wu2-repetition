@@ -11,17 +11,19 @@ body {
     margin-inline: auto;
 }
 
-.gallery {
-    display:list-item;
+img {
+    display: flex;
     list-style: none;
     padding: 0;
     margin: 0 auto;
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(30ch, 1fr));
+    grid-template-columns: repeat(auto-fit, minmax(60ch, 1fr));
     gap: 1rem;
+    
 }
 
 main {
+    list-style: none;
     margin-top: 4vh;
     margin-bottom: 8vh;
 }
